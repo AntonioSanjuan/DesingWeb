@@ -33,7 +33,7 @@
    * Event listeners for UI elements
    *
    ****************************************************************************/
-
+<!--
   document.getElementById('butRefresh').addEventListener('click', function() {
     // Refresh all of the forecasts
     app.updateForecasts();
@@ -303,7 +303,7 @@
     }
   };
   // TODO uncomment line below to test app with fake data
-  //app.updateForecastCard(initialWeatherForecast);
+  app.updateForecastCard(initialWeatherForecast);
 
   // TODO add startup code here
 
